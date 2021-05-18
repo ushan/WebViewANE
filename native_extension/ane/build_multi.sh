@@ -8,7 +8,7 @@ PROJECTNAME=WebViewANE
 fwSuffix="_FW"
 libSuffix="_LIB"
 
-AIR_SDK="/Users/eoinlandy/SDKs/AIRSDK_33.1.1.345"
+AIR_SDK="/Users/user/sdks/4.16.1_air32_hrm2"
 
 if [ ! -d "$pathtome/../../native_library/apple/$PROJECTNAME/Build/Products/Release-iphonesimulator/" ]; then
 echo "No Simulator build. Build using Xcode"
@@ -25,6 +25,7 @@ echo "No OSX build. Build using Xcode"
 exit
 fi
 
+exit
 #Setup the directory.
 echo "Making directories."
 
